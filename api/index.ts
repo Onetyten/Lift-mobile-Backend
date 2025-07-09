@@ -1,7 +1,7 @@
 import dotenv from 'dotenv'
 dotenv.config()
-import registerRoute from './Routes/auth/register.route'
-import logInRoute from './Routes/auth/login.route'
+import registerRoute from '../Routes/auth/register.route'
+import logInRoute from '../Routes/auth/login.route'
 
 import express from 'express'
 import cors from 'cors';
